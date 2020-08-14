@@ -90,7 +90,6 @@ div.inner-container img{
   top: 8%;
   display: flex;
   z-index: 10;
-
 }
 
 .link img {
@@ -175,4 +174,61 @@ div.quote p{
   height: 100vh;
   width: 100vw;
   background-color: var(--ternary);
+  display: flex;
+}
+
+.about-head {
+  background-image: linear-gradient(180deg,var(--fifth),var(--light));
+  height: 7%;
+  width: 13%;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+.about-head h2 {
+  margin-left: 17%;
+  font-weight: 600;
+}
+
+
+.writting {
+  margin-left: 50px;
+}
+.writting h1 {
+  line-height: 7rem;
+  font-weight: 800;
+}
+.wrtting p {
+  line-height: 6rem;
+  letter-spacing: 0.5rem;
+  text-align: center;
+}
+
+.first-container {
+  margin-top: 7%;
+  margin-left: -5%;
+  box-shadow: -15px 20px 15px 0px var(--secondary);
+
+}
+
+.second-container {
+  margin-top: 2%;
+  margin-left: 3%;
+  box-shadow: -5px 25px 15px 0px var(--secondary);
+
+}
+
+.third-container {
+  margin-top: 7%;
+  margin-left: 3%;
+  box-shadow: 15px 20px 15px 0px var(--secondary);
+}
+
+.writting-1 h1 {
+  font-size: 1.7rem;
+  margin-left: -10px;
+}
+
+.writting-2 h1 {
+  font-size: 1.7rem;
+  margin-left: -20px;
 }
