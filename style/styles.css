@@ -171,10 +171,7 @@ div.quote p{
   font-weight: 600;
 }
 .about-me {
-  height: 100vh;
-  width: 100vw;
   background-color: var(--ternary);
-  display: flex;
 }
 
 .about-head {
@@ -188,8 +185,10 @@ div.quote p{
   margin-left: 17%;
   font-weight: 600;
 }
-
-
+.about-container {
+  color: -var(--dark);
+  background-image: linear-gradient(180deg,var(--fifth),var(--light));
+}
 .writting {
   margin-left: 50px;
 }
@@ -204,22 +203,15 @@ div.quote p{
 }
 
 .first-container {
-  margin-top: 7%;
-  margin-left: -5%;
   box-shadow: -15px 20px 15px 0px var(--secondary);
-
 }
 
 .second-container {
-  margin-top: 2%;
-  margin-left: 3%;
   box-shadow: -5px 25px 15px 0px var(--secondary);
 
 }
 
 .third-container {
-  margin-top: 7%;
-  margin-left: 3%;
   box-shadow: 15px 20px 15px 0px var(--secondary);
 }
 
@@ -231,4 +223,48 @@ div.quote p{
 .writting-2 h1 {
   font-size: 1.7rem;
   margin-left: -20px;
+}
+
+.portfolio {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.portfolio-head {
+  position: absolute;
+  right: 0px;
+  background-image: linear-gradient(20deg, var(--dark),var(--tertiary));
+  width: 20%;
+  height: 7vh;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+.portfolio-head h2 {
+  font-size: 1.8rem;
+  color: var(--light);
+  margin-left: 20%;
+  font-weight: 900;
+}
+.portfolio {
+  background-image: linear-gradient(var(--primary),var(--fifth));
+}
+.first-portfolio-container {
+  margin-top: 2%;
+  margin-left: 7%;
+}
+.second-portfolio-container {
+  margin-top: 7%;
+  margin-left: 4%;
+}
+.third-portfolio-container {
+  margin-top: 9%;
+  margin-left: 4%;
+}
+.writting-portfolio {
+  color: var(--light);
+  font-weight: 500;
+}
+.portfolio-container {
+  background-image: linear-gradient(var(--dark),var(--tertiary));
 }

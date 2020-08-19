@@ -18,14 +18,12 @@
       font-weight: 400;
   }
 
-  .about-container {
-    color: -var(--dark);
-    background-image: linear-gradient(180deg,var(--fifth),var(--light));
-    height: 70%;
+  .general-card-container {
+    height: 80%;
     width: 25%;
     border-radius:4rem;
   }
-
+  
   .writting {
     margin-left: 50px;
   }
@@ -37,4 +35,21 @@
     line-height: 6rem;
     letter-spacing: 0.5rem;
     text-align: center;
+  }
+  .general-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+  }
+  .first-about-container {
+    margin-top: 7%;
+    margin-left: -5%;
+  }
+  .second-about-container {
+    margin-top: 2%;
+    margin-left: 3%;
+  }
+  .third-about-container {
+    margin-top: 7%;
+    margin-left: 3%;
   }
